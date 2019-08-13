@@ -83,3 +83,9 @@ body {
 .red-glow{
     box-shadow: 0 0 20px #C50000;
 }
+
+@media screen and (max-width : 500px){
+    #main-head{
+        font-size: 40px;
+    }
+}
