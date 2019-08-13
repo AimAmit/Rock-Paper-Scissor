@@ -61,7 +61,6 @@ function clicked(userChoice){
 function updateScore(){
     userDisplay.innerHTML = userPoint.toString();
     compDisplay.innerHTML = compPoint.toString();
-    console.log(userPoint+" "+compPoint);
 }
 
 function updateResult(userChoice, compChoice, win){
